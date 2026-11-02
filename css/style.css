@@ -1,0 +1,1233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+    --ink: #201b17;
+    --muted: #746b62;
+    --paper: #f5f0e7;
+    --white: #fffdf8;
+    --red: #a72d25;
+    --gold: #b79a68;
+    --line: #ded4c5;
+    --dark: #171411;
+    --serif: 'Playfair Display', Georgia, serif;
+    --sans: 'DM Sans', Arial, sans-serif
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.7 var(--sans)
+}
+
+a {
+    color: inherit
+}
+
+img,
+video {
+    max-width: 100%;
+    display: block
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    line-height: 1.13;
+    margin: 0 0 18px
+}
+
+h1 {
+    font-size: clamp(3rem, 7vw, 6.5rem);
+    letter-spacing: -.045em
+}
+
+h2 {
+    font-size: clamp(2.1rem, 4vw, 3.7rem)
+}
+
+h3 {
+    font-size: 1.5rem
+}
+
+p {
+    color: var(--muted);
+    margin: 0 0 18px
+}
+
+.site-header {
+    height: 88px;
+    padding: 0 clamp(20px, 5vw, 76px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background: rgba(245, 240, 231, .96);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    backdrop-filter: blur(14px)
+}
+
+.brand {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+    font: 600 13px var(--sans);
+    letter-spacing: .12em
+}
+
+.brand-mark {
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--gold);
+    display: grid;
+    place-items: center;
+    color: var(--red);
+    font: 25px var(--serif)
+}
+
+.brand b,
+.brand small {
+    display: block
+}
+
+.brand small {
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: .16em;
+    margin-top: 4px
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(12px, 2vw, 28px)
+}
+
+.main-nav a,
+.site-footer a {
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: .03em
+}
+
+.main-nav a:hover,
+.text-link:hover {
+    color: var(--red)
+}
+
+.language-picker select {
+    background: transparent;
+    border: 1px solid var(--line);
+    padding: 8px;
+    color: var(--ink);
+    font: 600 11px var(--sans)
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: 0;
+    font-size: 24px
+}
+
+.hero {
+    min-height: 690px;
+    display: grid;
+    grid-template-columns: 1.05fr .95fr;
+    align-items: center;
+    gap: 5vw;
+    padding: 65px clamp(22px, 8vw, 130px)
+}
+
+.hero-copy {
+    max-width: 650px
+}
+
+.eyebrow {
+    font: 700 10px var(--sans);
+    letter-spacing: .23em;
+    color: var(--red);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px
+}
+
+.lead {
+    font: 18px/1.8 var(--sans);
+    max-width: 630px
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    flex-wrap: wrap;
+    margin-top: 34px
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    border: 1px solid var(--red);
+    padding: 15px 25px;
+    font: 600 12px var(--sans);
+    letter-spacing: .05em;
+    cursor: pointer;
+    transition: .25s
+}
+
+.button:hover {
+    background: #7f201b;
+    transform: translateY(-2px)
+}
+
+.text-link {
+    font: 600 12px var(--sans);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 5px
+}
+
+.hero-image {
+    height: 570px;
+    position: relative;
+    background: linear-gradient(145deg, #d9c9b1, #a78c70);
+    border-radius: 48% 48% 4px 4px;
+    overflow: hidden
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.hero-image.image-missing:after {
+    content: '寿';
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #fff9;
+    font: 150px var(--serif)
+}
+
+.section {
+    padding: 100px clamp(22px, 9vw, 140px);
+    border-top: 1px solid var(--line)
+}
+
+.section-heading {
+    max-width: 700px;
+    margin-bottom: 45px
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px
+}
+
+.feature-card {
+    background: var(--white);
+    padding: 22px;
+    min-height: 360px
+}
+
+.feature-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    margin-bottom: 24px
+}
+
+.feature-card p {
+    font-size: 14px
+}
+
+.feature-dark {
+    background: var(--dark);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 38px
+}
+
+.feature-dark p {
+    color: #c7bdb0
+}
+
+.cta-band {
+    background: var(--red);
+    color: white;
+    padding: 65px clamp(22px, 9vw, 140px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.cta-band p {
+    color: #f4deda
+}
+
+.cta-band .eyebrow {
+    color: #f0c8a6
+}
+
+.button-light {
+    background: transparent;
+    border-color: #fff
+}
+
+.page-hero {
+    padding: 100px clamp(22px, 9vw, 140px) 65px;
+    background: var(--dark);
+    color: white
+}
+
+.page-hero .lead {
+    color: #c8bdb0
+}
+
+.page-hero .eyebrow {
+    color: #d8a17b
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7vw;
+    align-items: center
+}
+
+.rounded-photo {
+    width: 100%;
+    max-height: 620px;
+    object-fit: cover
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 32px
+}
+
+.stats div {
+    padding: 16px 10px;
+    border-top: 1px solid var(--gold)
+}
+
+.stats b {
+    display: block;
+    font: 32px var(--serif);
+    color: var(--red)
+}
+
+.stats span {
+    font-size: 10px;
+    color: var(--muted)
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0 8px;
+    border-left: 1px solid var(--gold)
+}
+
+.timeline li {
+    padding: 0 0 35px 28px;
+    position: relative;
+    max-width: 800px
+}
+
+.timeline li:before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: var(--red);
+    border-radius: 50%;
+    left: -5px;
+    top: 8px
+}
+
+.timeline li>b {
+    font: 700 10px var(--sans);
+    letter-spacing: .14em;
+    color: var(--red);
+    text-transform: uppercase
+}
+
+.timeline h3 {
+    margin: 6px 0
+}
+
+.section-ink {
+    background: var(--dark);
+    color: white
+}
+
+.section-ink p {
+    color: #c8bdb0
+}
+
+.tags {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin-top: 25px
+}
+
+.tags span {
+    border: 1px solid var(--gold);
+    padding: 6px 13px;
+    font-size: 11px
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px
+}
+
+.media-grid article {
+    min-width: 0
+}
+
+.media-grid img,
+.media-grid video {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    background: #d8cbbb
+}
+
+.media-grid p {
+    font-size: 13px;
+    margin-top: 14px
+}
+
+.quote-section {
+    padding: 80px 22px;
+    text-align: center;
+    background: #e9dfd0
+}
+
+.quote-section blockquote {
+    font: clamp(1.5rem, 3vw, 2.5rem) var(--serif);
+    max-width: 900px;
+    margin: 20px auto
+}
+
+.quote-section small {
+    color: var(--red)
+}
+
+.empty-state {
+    padding: 35px;
+    background: var(--white);
+    border: 1px solid var(--line)
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
+
+.dish {
+    background: var(--white);
+    padding: 16px
+}
+
+.dish img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover
+}
+
+.dish h3 {
+    margin: 18px 0 7px
+}
+
+.dish .price {
+    color: var(--red);
+    font-weight: 700
+}
+
+.booking-layout {
+    display: grid;
+    grid-template-columns: 1.2fr .8fr;
+    gap: 7vw
+}
+
+.booking-form {
+    background: var(--white);
+    padding: 32px;
+    border: 1px solid var(--line)
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0 0 25px
+}
+
+legend,
+label {
+    font: 700 11px var(--sans);
+    letter-spacing: .08em;
+    margin-bottom: 12px;
+    display: block
+}
+
+.table-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px
+}
+
+.table-option {
+    border: 1px solid var(--line);
+    padding: 17px;
+    background: var(--paper);
+    cursor: pointer;
+    display: block
+}
+
+.table-option:has(input:checked) {
+    border: 2px solid var(--red);
+    background: #f8e9e3
+}
+
+.table-option input {
+    accent-color: var(--red);
+    margin-right: 7px
+}
+
+.table-option strong {
+    display: block;
+    font: 17px var(--serif);
+    margin-top: 8px
+}
+
+.table-option small {
+    color: var(--muted)
+}
+
+input[type=text],
+input[type=number],
+input:not([type]) {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    font: 15px var(--sans);
+    margin-bottom: 20px
+}
+
+.booking-form .button {
+    width: 100%
+}
+
+.notice,
+.feedback {
+    font-size: 12px;
+    padding: 13px;
+    background: #f2e9dd;
+    margin-top: 16px
+}
+
+.booking-aside {
+    background: var(--dark);
+    color: white;
+    padding: 38px;
+    align-self: start
+}
+
+.booking-aside p {
+    color: #c8bdb0
+}
+
+.table-illustration {
+    height: 190px;
+    border: 1px solid var(--gold);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 80px;
+    color: var(--gold);
+    margin-bottom: 25px
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 5vw
+}
+
+.contact-layout iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+    filter: grayscale(1)
+}
+
+.site-footer {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 60px 20px 110px
+}
+
+.site-footer p {
+    color: #c8bdb0
+}
+
+.site-footer small {
+    display: block;
+    margin-top: 30px;
+    color: #8f8479;
+    font-size: 10px
+}
+
+.footer-brand {
+    font: 20px var(--serif);
+    letter-spacing: .14em;
+    margin-bottom: 12px
+}
+
+.sticky-booking {
+    position: fixed;
+    z-index: 30;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    padding: 13px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 10px 35px #0003;
+    font-size: 12px;
+    letter-spacing: .04em;
+    white-space: nowrap
+}
+
+.sticky-booking span {
+    font-size: 17px
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0
+}
+
+@media(max-width:1000px) {
+    .main-nav {
+        gap: 12px
+    }
+
+    .main-nav a {
+        font-size: 10px
+    }
+
+    .hero {
+        padding-inline: 35px
+    }
+
+    .section {
+        padding: 75px 35px
+    }
+}
+
+@media(max-width:760px) {
+    .site-header {
+        height: 72px;
+        padding: 0 18px;
+        gap: 10px
+    }
+
+    .nav-toggle {
+        display: block;
+        order: 3
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: var(--paper);
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid var(--line)
+    }
+
+    .main-nav.open {
+        display: flex
+    }
+
+    .main-nav a {
+        font-size: 13px
+    }
+
+    .language-picker {
+        margin-left: auto
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 65px 22px 45px;
+        gap: 35px;
+        min-height: 0
+    }
+
+    .hero-image {
+        height: 390px;
+        grid-row: 1
+    }
+
+    .hero h1 {
+        font-size: 3.4rem
+    }
+
+    .section {
+        padding: 65px 22px
+    }
+
+    .feature-grid,
+    .media-grid,
+    .menu-grid {
+        grid-template-columns: 1fr
+    }
+
+    .feature-card {
+        min-height: 0
+    }
+
+    .cta-band {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 55px 22px
+    }
+
+    .page-hero {
+        padding: 70px 22px 45px
+    }
+
+    .split,
+    .booking-layout,
+    .contact-layout {
+        grid-template-columns: 1fr
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .booking-form {
+        padding: 22px
+    }
+
+    .booking-aside {
+        display: none
+    }
+
+    .contact-layout iframe {
+        height: 330px
+    }
+
+    .media-grid img,
+    .media-grid video {
+        height: 240px
+    }
+
+    .sticky-booking {
+        bottom: 12px
+    }
+
+    .brand {
+        font-size: 10px
+    }
+
+    .brand-mark {
+        width: 36px;
+        height: 36px
+    }
+}
+
+/* =========================================
+   CHEF PROFILE
+========================================= */
+
+.chef-profile {
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 100px 0;
+
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 75px;
+}
+
+/* Imagem do chef */
+
+.chef-image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    height: 570px;
+    border-radius: 220px 220px 18px 18px;
+    overflow: hidden;
+    background: #e8e1d7;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.13);
+}
+
+.chef-photo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center 30%;
+    transition: transform 0.7s ease;
+}
+
+.chef-image-wrapper:hover .chef-photo {
+    transform: scale(1.045);
+}
+
+/* Identificação sobre a imagem */
+
+.chef-image-caption {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 17px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+
+    background: rgba(23, 20, 17, 0.82);
+    backdrop-filter: blur(12px);
+    color: #fff;
+}
+
+.chef-image-caption>span {
+    width: 42px;
+    height: 42px;
+
+    display: grid;
+    place-items: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+
+    font-size: 23px;
+    color: #d8b77a;
+}
+
+.chef-image-caption strong,
+.chef-image-caption small {
+    display: block;
+}
+
+.chef-image-caption strong {
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+
+.chef-image-caption small {
+    margin-top: 4px;
+    color: #d8cfc3;
+    font-size: 12px;
+}
+
+/* Conteúdo */
+
+.chef-content {
+    max-width: 590px;
+}
+
+.chef-content .eyebrow {
+    display: inline-block;
+    margin-bottom: 18px;
+
+    color: #a47b45;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+}
+
+.chef-content h2 {
+    margin: 0 0 25px;
+
+    color: #171411;
+    font-family: Georgia, serif;
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.chef-content p {
+    margin-bottom: 18px;
+
+    color: #68615a;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+/* Assinatura */
+
+.chef-signature {
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid #e8e0d6;
+}
+
+.chef-signature span {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #898077;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+}
+
+.chef-signature strong {
+    color: #a47b45;
+    font-family: Georgia, serif;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+    .chef-profile {
+        grid-template-columns: 1fr;
+        gap: 45px;
+        padding: 65px 0;
+    }
+
+    .chef-image-wrapper {
+        width: 100%;
+        max-width: 430px;
+        height: 490px;
+        margin: 0 auto;
+    }
+
+    .chef-content {
+        max-width: 100%;
+    }
+
+    .chef-content h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chef-profile {
+        width: calc(100% - 32px);
+        padding: 45px 0;
+        gap: 35px;
+    }
+
+    .chef-image-wrapper {
+        height: 410px;
+        border-radius: 180px 180px 14px 14px;
+    }
+
+    .chef-image-caption {
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        padding: 12px;
+    }
+
+    .chef-image-caption>span {
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
+    }
+
+    .chef-content h2 {
+        font-size: 31px;
+    }
+
+    .chef-content p {
+        font-size: 14px;
+    }
+}
+
+
+/* =========================================
+   PÁGINA JAPÃO — EXPERIÊNCIA
+========================================= */
+
+.japan-experience {
+    align-items: center;
+    gap: 55px;
+}
+
+.japan-experience .rounded-photo {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+    background: #171411;
+    border-radius: 18px;
+    cursor: zoom-in;
+}
+
+
+/* =========================================
+   TÍTULO DA GALERIA
+========================================= */
+
+.gallery-heading {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.gallery-heading h2 {
+    margin: 12px 0;
+}
+
+.gallery-heading p {
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+
+/* =========================================
+   GALERIA
+========================================= */
+
+.japan-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.gallery-item {
+    margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #211d19;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+    object-position: center;
+    background: #171411;
+    cursor: zoom-in;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.025);
+}
+
+.gallery-item figcaption {
+    padding: 15px 18px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================
+   VÍDEO COMPLETO
+========================================= */
+
+.japan-video {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.japan-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 75vh;
+    object-fit: contain;
+    background: #000;
+}
+
+
+/* =========================================
+   LIGHTBOX — IMAGEM NO CENTRO
+========================================= */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+
+    background: rgba(0, 0, 0, 0.94);
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    padding: 60px 25px 35px;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    display: block;
+    max-width: 95%;
+    max-height: 82vh;
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+
+    border-radius: 8px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox p {
+    color: #fff;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 18px;
+    right: 28px;
+
+    border: 0;
+    background: transparent;
+
+    color: #fff;
+    font-size: 45px;
+    line-height: 1;
+
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.lightbox-close:hover {
+    opacity: 0.6;
+}
+
+body.lightbox-open {
+    overflow: hidden;
+}
+
+
+/* =========================================
+   RESPONSIVIDADE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .japan-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .gallery-item img {
+        height: 260px;
+    }
+
+    .japan-experience {
+        gap: 30px;
+    }
+
+    .japan-experience .rounded-photo {
+        height: 380px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .japan-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: 280px;
+    }
+
+    .japan-experience .rounded-photo {
+        height: 300px;
+    }
+
+    .lightbox {
+        padding: 55px 12px 25px;
+    }
+
+    .lightbox img {
+        max-width: 100%;
+        max-height: 78vh;
+    }
+
+    .lightbox-close {
+        top: 12px;
+        right: 18px;
+    }
+
+    .japan-video {
+        border-radius: 12px;
+    }
+}

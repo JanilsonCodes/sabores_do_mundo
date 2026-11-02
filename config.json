@@ -1,0 +1,709 @@
+{
+  
+  "menu": {
+    "categories": [
+      {
+        "id": "sushi",
+        "name": {
+          "pt": "Sushi tradicional",
+          "en": "Traditional Sushi",
+          "fr": "Sushi traditionnel",
+          "ja": "伝統的な寿司"
+        },
+        "items": [
+          {
+            "id": "sashimi-salmao",
+            "name": {
+              "pt": "Sashimi de salmão",
+              "en": "Salmon Sashimi",
+              "fr": "Sashimi de saumon",
+              "ja": "サーモン刺身"
+            },
+            "description": {
+              "pt": "Fatias frescas de salmão selecionado.",
+              "en": "Fresh slices of selected salmon.",
+              "fr": "Tranches fraîches de saumon sélectionné.",
+              "ja": "厳選された新鮮なサーモンの薄切り。"
+            },
+            "price": 1200,
+            "image": "sashimi-salmao.webp"
+          },
+          {
+            "id": "sashimi-atum",
+            "name": {
+              "pt": "Sashimi de atum",
+              "en": "Tuna Sashimi",
+              "fr": "Sashimi de thon",
+              "ja": "マグロ刺身"
+            },
+            "description": {
+              "pt": "Fatias frescas de atum.",
+              "en": "Fresh slices of tuna.",
+              "fr": "Tranches fraîches de thon.",
+              "ja": "新鮮なマグロの薄切り。"
+            },
+            "price": 1400,
+            "image": "sashimi-atum.webp"
+          },
+          {
+            "id": "nigiri-salmao",
+            "name": {
+              "pt": "Nigiri de salmão",
+              "en": "Salmon Nigiri",
+              "fr": "Nigiri au saumon",
+              "ja": "サーモン握り"
+            },
+            "description": {
+              "pt": "Arroz japonês coberto com salmão fresco.",
+              "en": "Japanese rice topped with fresh salmon.",
+              "fr": "Riz japonais recouvert de saumon frais.",
+              "ja": "新鮮なサーモンをのせた日本の握り寿司。"
+            },
+            "price": 900,
+            "image": "nigiri-salmao.webp"
+          },
+          {
+            "id": "nigiri-atum",
+            "name": {
+              "pt": "Nigiri de atum",
+              "en": "Tuna Nigiri",
+              "fr": "Nigiri au thon",
+              "ja": "マグロ握り"
+            },
+            "description": {
+              "pt": "Arroz japonês coberto com atum fresco.",
+              "en": "Japanese rice topped with fresh tuna.",
+              "fr": "Riz japonais recouvert de thon frais.",
+              "ja": "新鮮なマグロをのせた日本の握り寿司。"
+            },
+            "price": 1000,
+            "image": "nigiri-atum.webp"
+          }
+        ]
+      },
+      {
+        "id": "rolls",
+        "name": {
+          "pt": "Maki e Rolls",
+          "en": "Maki and Rolls",
+          "fr": "Maki et Rolls",
+          "ja": "巻き寿司とロール"
+        },
+        "items": [
+          {
+            "id": "california-roll",
+            "name": {
+              "pt": "California Roll",
+              "en": "California Roll",
+              "fr": "California Roll",
+              "ja": "カリフォルニアロール"
+            },
+            "description": {
+              "pt": "Rolo de sushi com ingredientes frescos.",
+              "en": "Sushi roll made with fresh ingredients.",
+              "fr": "Rouleau de sushi préparé avec des ingrédients frais.",
+              "ja": "新鮮な食材を使った巻き寿司。"
+            },
+            "price": 1100,
+            "image": "california-roll.webp"
+          },
+          {
+            "id": "philadelphia-roll",
+            "name": {
+              "pt": "Philadelphia Roll",
+              "en": "Philadelphia Roll",
+              "fr": "Philadelphia Roll",
+              "ja": "フィラデルフィアロール"
+            },
+            "description": {
+              "pt": "Sushi com salmão e queijo creme.",
+              "en": "Sushi with salmon and cream cheese.",
+              "fr": "Sushi au saumon et au fromage frais.",
+              "ja": "サーモンとクリームチーズの寿司。"
+            },
+            "price": 1300,
+            "image": "philadelphia-roll.webp"
+          },
+          {
+            "id": "dragon-roll",
+            "name": {
+              "pt": "Dragon Roll",
+              "en": "Dragon Roll",
+              "fr": "Dragon Roll",
+              "ja": "ドラゴンロール"
+            },
+            "description": {
+              "pt": "Rolo especial de sushi da casa.",
+              "en": "The restaurant's special sushi roll.",
+              "fr": "Rouleau spécial de sushi de la maison.",
+              "ja": "当店特製のスペシャル巻き寿司。"
+            },
+            "price": 1500,
+            "image": "dragon-roll.webp"
+          },
+          {
+            "id": "hot-roll",
+            "name": {
+              "pt": "Hot Roll",
+              "en": "Hot Roll",
+              "fr": "Hot Roll",
+              "ja": "ホットロール"
+            },
+            "description": {
+              "pt": "Sushi crocante preparado com fritura.",
+              "en": "Crispy sushi prepared by frying.",
+              "fr": "Sushi croustillant préparé en friture.",
+              "ja": "揚げて仕上げたサクサクの寿司。"
+            },
+            "price": 1200,
+            "image": "hot-roll.webp"
+          }
+        ]
+      },
+      {
+        "id": "starters",
+        "name": {
+          "pt": "Entradas",
+          "en": "Starters",
+          "fr": "Entrées",
+          "ja": "前菜"
+        },
+        "items": [
+          {
+            "id": "gyoza",
+            "name": {
+              "pt": "Gyoza",
+              "en": "Gyoza",
+              "fr": "Gyoza",
+              "ja": "餃子"
+            },
+            "description": {
+              "pt": "Pastéis japoneses recheados.",
+              "en": "Japanese stuffed dumplings.",
+              "fr": "Raviolis japonais farcis.",
+              "ja": "具材を包んだ日本の餃子。"
+            },
+            "price": 800,
+            "image": "gyoza.webp"
+          },
+          {
+            "id": "tempura-camarao",
+            "name": {
+              "pt": "Tempura de camarão",
+              "en": "Shrimp Tempura",
+              "fr": "Tempura de crevettes",
+              "ja": "エビの天ぷら"
+            },
+            "description": {
+              "pt": "Camarões envolvidos numa massa leve e crocante.",
+              "en": "Shrimp coated in a light, crispy batter.",
+              "fr": "Crevettes enrobées d'une pâte légère et croustillante.",
+              "ja": "軽くてサクサクの衣で揚げたエビ。"
+            },
+            "price": 1000,
+            "image": "tempura-camarao.webp"
+          },
+          {
+            "id": "edamame",
+            "name": {
+              "pt": "Edamame",
+              "en": "Edamame",
+              "fr": "Edamame",
+              "ja": "枝豆"
+            },
+            "description": {
+              "pt": "Soja verde japonês cozido e temperado.",
+              "en": "Cooked and seasoned Japanese green soybeans.",
+              "fr": "Fèves de soja vertes japonaises cuites et assaisonnées.",
+              "ja": "茹でて味付けした日本の青大豆。"
+            },
+            "price": 600,
+            "image": "edamame.webp"
+          },
+          {
+            "id": "sopa-miso",
+            "name": {
+              "pt": "Sopa Miso",
+              "en": "Miso Soup",
+              "fr": "Soupe miso",
+              "ja": "味噌汁"
+            },
+            "description": {
+              "pt": "Sopa japonesa tradicional de miso.",
+              "en": "Traditional Japanese miso soup.",
+              "fr": "Soupe japonaise traditionnelle au miso.",
+              "ja": "伝統的な日本の味噌汁。"
+            },
+            "price": 500,
+            "image": "sopa-miso.webp"
+          }
+        ]
+      },
+      {
+        "id": "main-courses",
+        "name": {
+          "pt": "Pratos principais",
+          "en": "Main Courses",
+          "fr": "Plats principaux",
+          "ja": "メイン料理"
+        },
+        "items": [
+          {
+            "id": "ramen-frango",
+            "name": {
+              "pt": "Ramen de frango",
+              "en": "Chicken Ramen",
+              "fr": "Ramen au poulet",
+              "ja": "鶏肉ラーメン"
+            },
+            "description": {
+              "pt": "Massa japonesa servida em caldo com frango.",
+              "en": "Japanese noodles served in broth with chicken.",
+              "fr": "Nouilles japonaises servies dans un bouillon avec du poulet.",
+              "ja": "鶏肉入りスープで楽しむ日本の麺料理。"
+            },
+            "price": 1400,
+            "image": "ramen-frango.webp"
+          },
+          {
+            "id": "ramen-camarao",
+            "name": {
+              "pt": "Ramen de camarão",
+              "en": "Shrimp Ramen",
+              "fr": "Ramen aux crevettes",
+              "ja": "エビラーメン"
+            },
+            "description": {
+              "pt": "Ramen com camarões e caldo especial.",
+              "en": "Ramen with shrimp and special broth.",
+              "fr": "Ramen aux crevettes et bouillon spécial.",
+              "ja": "エビと特製スープのラーメン。"
+            },
+            "price": 1600,
+            "image": "ramen-camarao.webp"
+          },
+          {
+            "id": "yakisoba",
+            "name": {
+              "pt": "Yakisoba",
+              "en": "Yakisoba",
+              "fr": "Yakisoba",
+              "ja": "焼きそば"
+            },
+            "description": {
+              "pt": "Massa salteada ao estilo japonês.",
+              "en": "Stir-fried noodles prepared Japanese style.",
+              "fr": "Nouilles sautées à la japonaise.",
+              "ja": "日本風に炒めた麺料理。"
+            },
+            "price": 1300,
+            "image": "yakisoba.webp"
+          },
+          {
+            "id": "poke-bowl",
+            "name": {
+              "pt": "Poke Bowl",
+              "en": "Poke Bowl",
+              "fr": "Poke Bowl",
+              "ja": "ポケボウル"
+            },
+            "description": {
+              "pt": "Taça de arroz com ingredientes frescos.",
+              "en": "Rice bowl with fresh ingredients.",
+              "fr": "Bol de riz accompagné d'ingrédients frais.",
+              "ja": "新鮮な食材を盛り付けたライスボウル。"
+            },
+            "price": 1500,
+            "image": "poke-bowl.webp"
+          }
+        ]
+      },
+      {
+        "id": "desserts",
+        "name": {
+          "pt": "Sobremesas",
+          "en": "Desserts",
+          "fr": "Desserts",
+          "ja": "デザート"
+        },
+        "items": [
+          {
+            "id": "mochi",
+            "name": {
+              "pt": "Mochi",
+              "en": "Mochi",
+              "fr": "Mochi",
+              "ja": "餅"
+            },
+            "description": {
+              "pt": "Doce japonês tradicional de arroz.",
+              "en": "Traditional Japanese rice dessert.",
+              "fr": "Dessert traditionnel japonais à base de riz.",
+              "ja": "伝統的な日本の米菓子。"
+            },
+            "price": 700,
+            "image": "mochi.webp"
+          },
+          {
+            "id": "cheesecake",
+            "name": {
+              "pt": "Cheesecake",
+              "en": "Cheesecake",
+              "fr": "Cheesecake",
+              "ja": "チーズケーキ"
+            },
+            "description": {
+              "pt": "Fatia de cheesecake cremosa.",
+              "en": "A slice of creamy cheesecake.",
+              "fr": "Une part de cheesecake crémeux.",
+              "ja": "クリーミーなチーズケーキ。"
+            },
+            "price": 800,
+            "image": "cheesecake.webp"
+          },
+          {
+            "id": "gelado",
+            "name": {
+              "pt": "Gelado",
+              "en": "Ice Cream",
+              "fr": "Glace",
+              "ja": "アイスクリーム"
+            },
+            "description": {
+              "pt": "Gelado à escolha.",
+              "en": "Ice cream of your choice.",
+              "fr": "Glace au choix.",
+              "ja": "お好みのアイスクリーム。"
+            },
+            "price": 500,
+            "image": "gelado.webp"
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "name": {
+          "pt": "Bebidas",
+          "en": "Drinks",
+          "fr": "Boissons",
+          "ja": "ドリンク"
+        },
+        "items": [
+          {
+            "id": "agua",
+            "name": {
+              "pt": "Água",
+              "en": "Water",
+              "fr": "Eau",
+              "ja": "水"
+            },
+            "description": {
+              "pt": "Água natural.",
+              "en": "Still water.",
+              "fr": "Eau plate.",
+              "ja": "ミネラルウォーター。"
+            },
+            "price": 200,
+            "image": "agua.webp"
+          },
+          {
+            "id": "refrigerante",
+            "name": {
+              "pt": "Refrigerante",
+              "en": "Soft Drink",
+              "fr": "Boisson gazeuse",
+              "ja": "ソフトドリンク"
+            },
+            "description": {
+              "pt": "Refrigerante à escolha.",
+              "en": "Soft drink of your choice.",
+              "fr": "Boisson gazeuse au choix.",
+              "ja": "お好みのソフトドリンク。"
+            },
+            "price": 250,
+            "image": "refrigerante.webp"
+          },
+          {
+            "id": "cha-verde",
+            "name": {
+              "pt": "Chá verde",
+              "en": "Green Tea",
+              "fr": "Thé vert",
+              "ja": "緑茶"
+            },
+            "description": {
+              "pt": "Chá verde japonês.",
+              "en": "Japanese green tea.",
+              "fr": "Thé vert japonais.",
+              "ja": "日本の緑茶。"
+            },
+            "price": 300,
+            "image": "cha-verde.webp"
+          },
+          {
+            "id": "limonada",
+            "name": {
+              "pt": "Limonada",
+              "en": "Lemonade",
+              "fr": "Limonade",
+              "ja": "レモネード"
+            },
+            "description": {
+              "pt": "Limonada fresca.",
+              "en": "Fresh lemonade.",
+              "fr": "Limonade fraîche.",
+              "ja": "フレッシュレモネード。"
+            },
+            "price": 350,
+            "image": "limonada.webp"
+          }
+        ]
+      }
+    ]
+  },
+
+  "restaurant": {
+    "name": "Sushi Sabores do Mundo",
+    "shortName": "Sabores do Mundo",
+    "chef": "José Centeio",
+    "chefNickname": "Guto",
+    "address": "Palmarejo Baixo, Praia, Cabo Verde",
+    "phone": "PREENCHER_TELEFONE",
+    "whatsapp": "PREENCHER_NUMERO_WHATSAPP_COM_CODIGO_PAIS",
+    "email": "",
+    "mapsUrl": "https://www.google.com/maps/place/Sushi_Sabores+do+Mundo/@14.9047367,-23.5287432,17z/data=!3m1!4b1!4m6!3m5!1s0x935994d747c8531:0x69f9a505cf7fe308!8m2!3d14.9047367!4d-23.5261683!16s%2Fg%2F11yjblyfvy?entry=ttu",
+    "latitude": 14.9047367,
+    "longitude": -23.5261683,
+    "social": {
+      "instagram": "",
+      "facebook": ""
+    },
+    "hours": "PREENCHER_HORARIOS"
+  },
+  "tables": [
+    {
+      "id": "Mesa 01",
+      "seats": 2,
+      "order": 1,
+      "active": true,
+      "demo": true
+    },
+    {
+      "id": "Mesa 02",
+      "seats": 4,
+      "order": 2,
+      "active": true,
+      "demo": true
+    },
+    {
+      "id": "Mesa 03",
+      "seats": 4,
+      "order": 3,
+      "active": true,
+      "demo": true
+    },
+    {
+      "id": "Mesa 04",
+      "seats": 6,
+      "order": 4,
+      "active": true,
+      "demo": true
+    }
+  ],
+  "menu": {
+    "categories": [],
+    "items": []
+  },
+  "media": {
+    "hero": "public/images/fotografia-original-1.webp",
+    "chef": "public/images/fotografia-original-2.webp",
+    "japan": "public/images/fotografia-original-3.webp",
+    "onigiriVideo": "public/video_1.mp4",
+    "tokyoTeam": "public/images/img_2.webp",
+    "critic": "public/images/img_3.webp"
+  },
+  "languages": [
+    "pt",
+    "en",
+    "fr",
+    "ja"
+  ],
+  "texts": {
+    "pt": {
+      "navHome": "Início",
+      "navStory": "Nossa história",
+      "navChef": "O Chef Guto",
+      "navJapan": "Japão & experiência",
+      "navMenu": "Menu",
+      "navBooking": "Reservas",
+      "navContact": "Contacto",
+      "reserve": "Reservar uma mesa",
+      "heroTag": "Palmarejo Baixo · Praia · Cabo Verde",
+      "heroTitle": "Sushi feito com alma, de Cabo Verde ao Japão.",
+      "heroText": "Uma experiência gastronómica que une a técnica japonesa à hospitalidade cabo-verdiana, pelas mãos do Chef José Centeio, o Guto.",
+      "discover": "Descobrir a história",
+      "storyEyebrow": "A nossa essência",
+      "storyTitle": "Uma história construída à mesa",
+      "storyText": "Conheça o percurso, a dedicação e a paixão pela cozinha que deram origem ao Sushi Sabores do Mundo.",
+      "chefTitle": "José Centeio, “Guto”",
+      "chefIntro": "Mais de 25 anos de experiência na cozinha, com um percurso que atravessa Cabo Verde, Angola, Portugal e Japão.",
+      "japanTitle": "Entre Cabo Verde e Japão",
+      "japanText": "A formação e o contacto com mestres da cozinha japonesa aprofundaram a ligação de Guto ao sushi, ao Washoku e à tradição do Onigiri.",
+      "menuTitle": "Menu",
+      "menuIntro": "Conheça as propostas gastronómicas do restaurante. Os pratos, descrições e preços serão apresentados quando forem configurados.",
+      "bookingTitle": "Solicitar uma reserva",
+      "bookingIntro": "Escolha uma mesa ilustrativa, indique o seu nome e o número de pessoas. A equipa confirmará a disponibilidade diretamente consigo pelo WhatsApp.",
+      "name": "Nome",
+      "people": "Número de pessoas",
+      "chooseTable": "Escolha uma mesa",
+      "continue": "Continuar para WhatsApp",
+      "bookingNotice": "As mesas apresentadas são apenas uma referência visual. A disponibilidade não é verificada pelo website. A reserva só fica confirmada após resposta do restaurante.",
+      "location": "Onde estamos",
+      "openMaps": "Abrir no Google Maps",
+      "contact": "Contacto",
+      "footer": "Uma experiência de sushi em Palmarejo Baixo, Praia, Cabo Verde.",
+      "noDishes": "O menu será atualizado em breve.",
+      "seats": "lugares",
+      "demo": "Mesa demonstrativa",
+      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "tokyoCaption": "Equipa de rádio/televisão de Tóquio no restaurante, com o Chef Muira, durante uma formação de Onigiri.",
+      "criticCaption": "Registo relacionado com o crítico gastronómico japonês Mitsutani, que esteve a avaliar o sushi.",
+      "videoTitle": "Uma degustação de Onigiri",
+      "videoDesc": "Registo de uma degustação de Onigiri com o Chef Muira e o Chef José Centeio (Guto).",
+      "reservationSuccess": "A mensagem está pronta no WhatsApp. Envie-a para solicitar a reserva.",
+      "required": "Preencha o seu nome e indique o número de pessoas."
+    },
+    "en": {
+      "navHome": "Home",
+      "navStory": "Our story",
+      "navChef": "Chef Guto",
+      "navJapan": "Japan & experience",
+      "navMenu": "Menu",
+      "navBooking": "Reservations",
+      "navContact": "Contact",
+      "reserve": "Book a table",
+      "heroTag": "Palmarejo Baixo · Praia · Cabo Verde",
+      "heroTitle": "Sushi made with soul, from Cabo Verde to Japan.",
+      "heroText": "A dining experience bringing Japanese technique together with Cabo Verdean hospitality, led by Chef José Centeio, known as Guto.",
+      "discover": "Discover our story",
+      "storyEyebrow": "Our essence",
+      "storyTitle": "A story built around the table",
+      "storyText": "Discover the journey, dedication and passion for cooking behind Sushi Sabores do Mundo.",
+      "chefTitle": "José Centeio, “Guto”",
+      "chefIntro": "More than 25 years of kitchen experience, with a career across Cabo Verde, Angola, Portugal and Japan.",
+      "japanTitle": "Between Cabo Verde and Japan",
+      "japanText": "Training and contact with Japanese cuisine masters deepened Guto's connection to sushi, Washoku and the Onigiri tradition.",
+      "menuTitle": "Menu",
+      "menuIntro": "Explore the restaurant's dishes. Items, descriptions and prices will appear once configured.",
+      "bookingTitle": "Request a reservation",
+      "bookingIntro": "Choose an illustrative table, enter your name and party size. The team will confirm availability directly with you on WhatsApp.",
+      "name": "Name",
+      "people": "Number of guests",
+      "chooseTable": "Choose a table",
+      "continue": "Continue to WhatsApp",
+      "bookingNotice": "Tables are for visual reference only. Website availability is not checked. Your reservation is confirmed only after the restaurant replies.",
+      "location": "Find us",
+      "openMaps": "Open in Google Maps",
+      "contact": "Contact",
+      "footer": "A sushi experience in Palmarejo Baixo, Praia, Cabo Verde.",
+      "noDishes": "The menu will be updated soon.",
+      "seats": "seats",
+      "demo": "Demonstration table",
+      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "tokyoCaption": "Tokyo radio/television team at the restaurant with Chef Muira during Onigiri training.",
+      "criticCaption": "Photograph related to Japanese food critic Mitsutani, who visited to evaluate the sushi.",
+      "videoTitle": "An Onigiri tasting",
+      "videoDesc": "A record of an Onigiri tasting with Chef Muira and Chef José Centeio (Guto).",
+      "reservationSuccess": "Your message is ready in WhatsApp. Send it to request your reservation.",
+      "required": "Enter your name and the number of guests."
+    },
+    "fr": {
+      "navHome": "Accueil",
+      "navStory": "Notre histoire",
+      "navChef": "Le Chef Guto",
+      "navJapan": "Japon & expérience",
+      "navMenu": "Menu",
+      "navBooking": "Réservations",
+      "navContact": "Contact",
+      "reserve": "Réserver une table",
+      "heroTag": "Palmarejo Baixo · Praia · Cabo Verde",
+      "heroTitle": "Un sushi préparé avec âme, du Cabo Verde au Japon.",
+      "heroText": "Une expérience gastronomique qui unit la technique japonaise à l'hospitalité capverdienne, par le Chef José Centeio, dit Guto.",
+      "discover": "Découvrir notre histoire",
+      "storyEyebrow": "Notre essence",
+      "storyTitle": "Une histoire autour de la table",
+      "storyText": "Découvrez le parcours, le dévouement et la passion culinaire à l'origine de Sushi Sabores do Mundo.",
+      "chefTitle": "José Centeio, « Guto »",
+      "chefIntro": "Plus de 25 ans d'expérience en cuisine, avec un parcours au Cabo Verde, en Angola, au Portugal et au Japon.",
+      "japanTitle": "Entre le Cabo Verde et le Japon",
+      "japanText": "La formation et les échanges avec des maîtres de la cuisine japonaise ont renforcé le lien de Guto avec le sushi, le Washoku et l'Onigiri.",
+      "menuTitle": "Menu",
+      "menuIntro": "Découvrez les propositions du restaurant. Les plats, descriptions et prix seront affichés après configuration.",
+      "bookingTitle": "Demander une réservation",
+      "bookingIntro": "Choisissez une table illustrative, indiquez votre nom et le nombre de personnes. L'équipe confirmera la disponibilité directement sur WhatsApp.",
+      "name": "Nom",
+      "people": "Nombre de personnes",
+      "chooseTable": "Choisissez une table",
+      "continue": "Continuer sur WhatsApp",
+      "bookingNotice": "Les tables sont présentées à titre indicatif. Le site ne vérifie pas les disponibilités. La réservation est confirmée uniquement après réponse du restaurant.",
+      "location": "Nous trouver",
+      "openMaps": "Ouvrir Google Maps",
+      "contact": "Contact",
+      "footer": "Une expérience sushi à Palmarejo Baixo, Praia, Cabo Verde.",
+      "noDishes": "Le menu sera bientôt mis à jour.",
+      "seats": "places",
+      "demo": "Table de démonstration",
+      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "tokyoCaption": "Équipe de radio/télévision de Tokyo au restaurant avec le Chef Muira, lors d'une formation Onigiri.",
+      "criticCaption": "Photo liée au critique gastronomique japonais Mitsutani, venu évaluer le sushi.",
+      "videoTitle": "Une dégustation d'Onigiri",
+      "videoDesc": "Une dégustation d'Onigiri avec le Chef Muira et le Chef José Centeio (Guto).",
+      "reservationSuccess": "Votre message est prêt sur WhatsApp. Envoyez-le pour demander la réservation.",
+      "required": "Saisissez votre nom et le nombre de personnes."
+    },
+    "ja": {
+      "navHome": "ホーム",
+      "navStory": "私たちの物語",
+      "navChef": "グトシェフ",
+      "navJapan": "日本と体験",
+      "navMenu": "メニュー",
+      "navBooking": "予約",
+      "navContact": "お問い合わせ",
+      "reserve": "テーブルを予約",
+      "heroTag": "パルマレージョ・バイショ · プライア · カーボベルデ",
+      "heroTitle": "カーボベルデから日本へ、心を込めた寿司。",
+      "heroText": "シェフ José Centeio（Guto）が、日本の技術とカーボベルデのおもてなしを結ぶ食体験をお届けします。",
+      "discover": "ストーリーを見る",
+      "storyEyebrow": "私たちの本質",
+      "storyTitle": "食卓から生まれた物語",
+      "storyText": "Sushi Sabores do Mundoの歩み、献身、料理への情熱をご紹介します。",
+      "chefTitle": "José Centeio「Guto」",
+      "chefIntro": "カーボベルデ、アンゴラ、ポルトガル、日本での歩みを含む、25年以上の料理経験。",
+      "japanTitle": "カーボベルデと日本の間で",
+      "japanText": "日本料理の研修と料理人との交流を通じて、寿司、和食、おにぎりへの理解を深めました。",
+      "menuTitle": "メニュー",
+      "menuIntro": "料理、説明、価格は設定後に表示されます。",
+      "bookingTitle": "予約リクエスト",
+      "bookingIntro": "テーブルを選び、お名前と人数を入力してください。空席はWhatsAppでスタッフが直接確認します。",
+      "name": "お名前",
+      "people": "人数",
+      "chooseTable": "テーブルを選択",
+      "continue": "WhatsAppへ進む",
+      "bookingNotice": "テーブルは参考表示です。ウェブサイトは空席を確認しません。レストランから返信があった後に予約が確定します。",
+      "location": "場所",
+      "openMaps": "Googleマップを開く",
+      "contact": "連絡先",
+      "footer": "カーボベルデ、プライア、パルマレージョ・バイショの寿司体験。",
+      "noDishes": "メニューは近日更新予定です。",
+      "seats": "席",
+      "demo": "デモ用テーブル",
+      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "tokyoCaption": "おにぎり研修の際、シェフMuiraとレストランを訪れた東京のラジオ・テレビチーム。",
+      "criticCaption": "寿司を評価するために訪れた日本の料理評論家Mitsutaniに関連する写真。",
+      "videoTitle": "おにぎりの試食",
+      "videoDesc": "シェフMuiraとJosé Centeio（Guto）によるおにぎりの試食。",
+      "reservationSuccess": "WhatsAppにメッセージを用意しました。送信して予約をリクエストしてください。",
+      "required": "お名前と人数を入力してください。"
+    }
+  }
+}
