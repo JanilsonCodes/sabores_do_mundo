@@ -155,7 +155,6 @@
       "foodMeeting": "Encontro gastronómico",
       "videoEyebrow": "Em vídeo",
       "videoFallback": "O seu navegador não suporta vídeo.",
-      "testimonialEyebrow": "Testemunho",
       "contactLead": "Sushi Sabores do Mundo — Chef José Centeio (Guto).",
       "country": "Cabo Verde",
       "placeAddress": "Palmarejo Baixo, Praia",
@@ -164,9 +163,6 @@
       "hospitality": "おもてなし",
       "bioEyebrow": "Biografia",
       "chefPassion": "Uma paixão pela cozinha japonesa",
-      "experienceJapan": "Experiência no Japão",
-      "galleryPhotos": "Galeria de fotografias",
-      "introEyebrow": "Introdução",
       "closeImage": "Fechar imagem",
       "languageLabel": "Idioma",
       "openMenu": "Abrir menu"
@@ -260,7 +256,6 @@
       "foodMeeting": "Culinary encounter",
       "videoEyebrow": "On video",
       "videoFallback": "Your browser does not support video.",
-      "testimonialEyebrow": "Testimonial",
       "contactLead": "Sushi Sabores do Mundo — Chef José Centeio (Guto).",
       "country": "Cabo Verde",
       "placeAddress": "Palmarejo Baixo, Praia",
@@ -269,8 +264,6 @@
       "hospitality": "Hospitality",
       "bioEyebrow": "Biography",
       "chefPassion": "A passion for Japanese cuisine",
-      "experienceJapan": "Experience in Japan",
-      "galleryPhotos": "Photo gallery",
       "introEyebrow": "Introduction",
       "closeImage": "Close image",
       "languageLabel": "Language",
@@ -365,7 +358,6 @@
       "foodMeeting": "Rencontre gastronomique",
       "videoEyebrow": "En vidéo",
       "videoFallback": "Votre navigateur ne prend pas en charge la vidéo.",
-      "testimonialEyebrow": "Témoignage",
       "contactLead": "Sushi Sabores do Mundo — Chef José Centeio (Guto).",
       "country": "Cabo Verde",
       "placeAddress": "Palmarejo Baixo, Praia",
@@ -374,8 +366,6 @@
       "hospitality": "Omotenashi · Hospitalité",
       "bioEyebrow": "Biographie",
       "chefPassion": "Une passion pour la cuisine japonaise",
-      "experienceJapan": "Expérience au Japon",
-      "galleryPhotos": "Galerie photos",
       "introEyebrow": "Introduction",
       "closeImage": "Fermer l’image",
       "languageLabel": "Langue",
@@ -470,7 +460,6 @@
       "foodMeeting": "食の交流",
       "videoEyebrow": "動画",
       "videoFallback": "お使いのブラウザは動画に対応していません。",
-      "testimonialEyebrow": "お客様の声",
       "contactLead": "Sushi Sabores do Mundo — シェフ José Centeio（Guto）。",
       "country": "カーボベルデ",
       "placeAddress": "パルマレージョ・バイショ、プライア",
@@ -479,8 +468,6 @@
       "hospitality": "おもてなし",
       "bioEyebrow": "略歴",
       "chefPassion": "日本料理への情熱",
-      "experienceJapan": "日本での経験",
-      "galleryPhotos": "写真ギャラリー",
       "introEyebrow": "はじめに",
       "closeImage": "画像を閉じる",
       "languageLabel": "言語",
@@ -488,4 +475,3 @@
     }
   }
 }
-
