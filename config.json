@@ -1,467 +1,8 @@
 {
-  
   "menu": {
-    "categories": [
-      {
-        "id": "sushi",
-        "name": {
-          "pt": "Sushi tradicional",
-          "en": "Traditional Sushi",
-          "fr": "Sushi traditionnel",
-          "ja": "伝統的な寿司"
-        },
-        "items": [
-          {
-            "id": "sashimi-salmao",
-            "name": {
-              "pt": "Sashimi de salmão",
-              "en": "Salmon Sashimi",
-              "fr": "Sashimi de saumon",
-              "ja": "サーモン刺身"
-            },
-            "description": {
-              "pt": "Fatias frescas de salmão selecionado.",
-              "en": "Fresh slices of selected salmon.",
-              "fr": "Tranches fraîches de saumon sélectionné.",
-              "ja": "厳選された新鮮なサーモンの薄切り。"
-            },
-            "price": 1200,
-            "image": "sashimi-salmao.webp"
-          },
-          {
-            "id": "sashimi-atum",
-            "name": {
-              "pt": "Sashimi de atum",
-              "en": "Tuna Sashimi",
-              "fr": "Sashimi de thon",
-              "ja": "マグロ刺身"
-            },
-            "description": {
-              "pt": "Fatias frescas de atum.",
-              "en": "Fresh slices of tuna.",
-              "fr": "Tranches fraîches de thon.",
-              "ja": "新鮮なマグロの薄切り。"
-            },
-            "price": 1400,
-            "image": "sashimi-atum.webp"
-          },
-          {
-            "id": "nigiri-salmao",
-            "name": {
-              "pt": "Nigiri de salmão",
-              "en": "Salmon Nigiri",
-              "fr": "Nigiri au saumon",
-              "ja": "サーモン握り"
-            },
-            "description": {
-              "pt": "Arroz japonês coberto com salmão fresco.",
-              "en": "Japanese rice topped with fresh salmon.",
-              "fr": "Riz japonais recouvert de saumon frais.",
-              "ja": "新鮮なサーモンをのせた日本の握り寿司。"
-            },
-            "price": 900,
-            "image": "nigiri-salmao.webp"
-          },
-          {
-            "id": "nigiri-atum",
-            "name": {
-              "pt": "Nigiri de atum",
-              "en": "Tuna Nigiri",
-              "fr": "Nigiri au thon",
-              "ja": "マグロ握り"
-            },
-            "description": {
-              "pt": "Arroz japonês coberto com atum fresco.",
-              "en": "Japanese rice topped with fresh tuna.",
-              "fr": "Riz japonais recouvert de thon frais.",
-              "ja": "新鮮なマグロをのせた日本の握り寿司。"
-            },
-            "price": 1000,
-            "image": "nigiri-atum.webp"
-          }
-        ]
-      },
-      {
-        "id": "rolls",
-        "name": {
-          "pt": "Maki e Rolls",
-          "en": "Maki and Rolls",
-          "fr": "Maki et Rolls",
-          "ja": "巻き寿司とロール"
-        },
-        "items": [
-          {
-            "id": "california-roll",
-            "name": {
-              "pt": "California Roll",
-              "en": "California Roll",
-              "fr": "California Roll",
-              "ja": "カリフォルニアロール"
-            },
-            "description": {
-              "pt": "Rolo de sushi com ingredientes frescos.",
-              "en": "Sushi roll made with fresh ingredients.",
-              "fr": "Rouleau de sushi préparé avec des ingrédients frais.",
-              "ja": "新鮮な食材を使った巻き寿司。"
-            },
-            "price": 1100,
-            "image": "california-roll.webp"
-          },
-          {
-            "id": "philadelphia-roll",
-            "name": {
-              "pt": "Philadelphia Roll",
-              "en": "Philadelphia Roll",
-              "fr": "Philadelphia Roll",
-              "ja": "フィラデルフィアロール"
-            },
-            "description": {
-              "pt": "Sushi com salmão e queijo creme.",
-              "en": "Sushi with salmon and cream cheese.",
-              "fr": "Sushi au saumon et au fromage frais.",
-              "ja": "サーモンとクリームチーズの寿司。"
-            },
-            "price": 1300,
-            "image": "philadelphia-roll.webp"
-          },
-          {
-            "id": "dragon-roll",
-            "name": {
-              "pt": "Dragon Roll",
-              "en": "Dragon Roll",
-              "fr": "Dragon Roll",
-              "ja": "ドラゴンロール"
-            },
-            "description": {
-              "pt": "Rolo especial de sushi da casa.",
-              "en": "The restaurant's special sushi roll.",
-              "fr": "Rouleau spécial de sushi de la maison.",
-              "ja": "当店特製のスペシャル巻き寿司。"
-            },
-            "price": 1500,
-            "image": "dragon-roll.webp"
-          },
-          {
-            "id": "hot-roll",
-            "name": {
-              "pt": "Hot Roll",
-              "en": "Hot Roll",
-              "fr": "Hot Roll",
-              "ja": "ホットロール"
-            },
-            "description": {
-              "pt": "Sushi crocante preparado com fritura.",
-              "en": "Crispy sushi prepared by frying.",
-              "fr": "Sushi croustillant préparé en friture.",
-              "ja": "揚げて仕上げたサクサクの寿司。"
-            },
-            "price": 1200,
-            "image": "hot-roll.webp"
-          }
-        ]
-      },
-      {
-        "id": "starters",
-        "name": {
-          "pt": "Entradas",
-          "en": "Starters",
-          "fr": "Entrées",
-          "ja": "前菜"
-        },
-        "items": [
-          {
-            "id": "gyoza",
-            "name": {
-              "pt": "Gyoza",
-              "en": "Gyoza",
-              "fr": "Gyoza",
-              "ja": "餃子"
-            },
-            "description": {
-              "pt": "Pastéis japoneses recheados.",
-              "en": "Japanese stuffed dumplings.",
-              "fr": "Raviolis japonais farcis.",
-              "ja": "具材を包んだ日本の餃子。"
-            },
-            "price": 800,
-            "image": "gyoza.webp"
-          },
-          {
-            "id": "tempura-camarao",
-            "name": {
-              "pt": "Tempura de camarão",
-              "en": "Shrimp Tempura",
-              "fr": "Tempura de crevettes",
-              "ja": "エビの天ぷら"
-            },
-            "description": {
-              "pt": "Camarões envolvidos numa massa leve e crocante.",
-              "en": "Shrimp coated in a light, crispy batter.",
-              "fr": "Crevettes enrobées d'une pâte légère et croustillante.",
-              "ja": "軽くてサクサクの衣で揚げたエビ。"
-            },
-            "price": 1000,
-            "image": "tempura-camarao.webp"
-          },
-          {
-            "id": "edamame",
-            "name": {
-              "pt": "Edamame",
-              "en": "Edamame",
-              "fr": "Edamame",
-              "ja": "枝豆"
-            },
-            "description": {
-              "pt": "Soja verde japonês cozido e temperado.",
-              "en": "Cooked and seasoned Japanese green soybeans.",
-              "fr": "Fèves de soja vertes japonaises cuites et assaisonnées.",
-              "ja": "茹でて味付けした日本の青大豆。"
-            },
-            "price": 600,
-            "image": "edamame.webp"
-          },
-          {
-            "id": "sopa-miso",
-            "name": {
-              "pt": "Sopa Miso",
-              "en": "Miso Soup",
-              "fr": "Soupe miso",
-              "ja": "味噌汁"
-            },
-            "description": {
-              "pt": "Sopa japonesa tradicional de miso.",
-              "en": "Traditional Japanese miso soup.",
-              "fr": "Soupe japonaise traditionnelle au miso.",
-              "ja": "伝統的な日本の味噌汁。"
-            },
-            "price": 500,
-            "image": "sopa-miso.webp"
-          }
-        ]
-      },
-      {
-        "id": "main-courses",
-        "name": {
-          "pt": "Pratos principais",
-          "en": "Main Courses",
-          "fr": "Plats principaux",
-          "ja": "メイン料理"
-        },
-        "items": [
-          {
-            "id": "ramen-frango",
-            "name": {
-              "pt": "Ramen de frango",
-              "en": "Chicken Ramen",
-              "fr": "Ramen au poulet",
-              "ja": "鶏肉ラーメン"
-            },
-            "description": {
-              "pt": "Massa japonesa servida em caldo com frango.",
-              "en": "Japanese noodles served in broth with chicken.",
-              "fr": "Nouilles japonaises servies dans un bouillon avec du poulet.",
-              "ja": "鶏肉入りスープで楽しむ日本の麺料理。"
-            },
-            "price": 1400,
-            "image": "ramen-frango.webp"
-          },
-          {
-            "id": "ramen-camarao",
-            "name": {
-              "pt": "Ramen de camarão",
-              "en": "Shrimp Ramen",
-              "fr": "Ramen aux crevettes",
-              "ja": "エビラーメン"
-            },
-            "description": {
-              "pt": "Ramen com camarões e caldo especial.",
-              "en": "Ramen with shrimp and special broth.",
-              "fr": "Ramen aux crevettes et bouillon spécial.",
-              "ja": "エビと特製スープのラーメン。"
-            },
-            "price": 1600,
-            "image": "ramen-camarao.webp"
-          },
-          {
-            "id": "yakisoba",
-            "name": {
-              "pt": "Yakisoba",
-              "en": "Yakisoba",
-              "fr": "Yakisoba",
-              "ja": "焼きそば"
-            },
-            "description": {
-              "pt": "Massa salteada ao estilo japonês.",
-              "en": "Stir-fried noodles prepared Japanese style.",
-              "fr": "Nouilles sautées à la japonaise.",
-              "ja": "日本風に炒めた麺料理。"
-            },
-            "price": 1300,
-            "image": "yakisoba.webp"
-          },
-          {
-            "id": "poke-bowl",
-            "name": {
-              "pt": "Poke Bowl",
-              "en": "Poke Bowl",
-              "fr": "Poke Bowl",
-              "ja": "ポケボウル"
-            },
-            "description": {
-              "pt": "Taça de arroz com ingredientes frescos.",
-              "en": "Rice bowl with fresh ingredients.",
-              "fr": "Bol de riz accompagné d'ingrédients frais.",
-              "ja": "新鮮な食材を盛り付けたライスボウル。"
-            },
-            "price": 1500,
-            "image": "poke-bowl.webp"
-          }
-        ]
-      },
-      {
-        "id": "desserts",
-        "name": {
-          "pt": "Sobremesas",
-          "en": "Desserts",
-          "fr": "Desserts",
-          "ja": "デザート"
-        },
-        "items": [
-          {
-            "id": "mochi",
-            "name": {
-              "pt": "Mochi",
-              "en": "Mochi",
-              "fr": "Mochi",
-              "ja": "餅"
-            },
-            "description": {
-              "pt": "Doce japonês tradicional de arroz.",
-              "en": "Traditional Japanese rice dessert.",
-              "fr": "Dessert traditionnel japonais à base de riz.",
-              "ja": "伝統的な日本の米菓子。"
-            },
-            "price": 700,
-            "image": "mochi.webp"
-          },
-          {
-            "id": "cheesecake",
-            "name": {
-              "pt": "Cheesecake",
-              "en": "Cheesecake",
-              "fr": "Cheesecake",
-              "ja": "チーズケーキ"
-            },
-            "description": {
-              "pt": "Fatia de cheesecake cremosa.",
-              "en": "A slice of creamy cheesecake.",
-              "fr": "Une part de cheesecake crémeux.",
-              "ja": "クリーミーなチーズケーキ。"
-            },
-            "price": 800,
-            "image": "cheesecake.webp"
-          },
-          {
-            "id": "gelado",
-            "name": {
-              "pt": "Gelado",
-              "en": "Ice Cream",
-              "fr": "Glace",
-              "ja": "アイスクリーム"
-            },
-            "description": {
-              "pt": "Gelado à escolha.",
-              "en": "Ice cream of your choice.",
-              "fr": "Glace au choix.",
-              "ja": "お好みのアイスクリーム。"
-            },
-            "price": 500,
-            "image": "gelado.webp"
-          }
-        ]
-      },
-      {
-        "id": "drinks",
-        "name": {
-          "pt": "Bebidas",
-          "en": "Drinks",
-          "fr": "Boissons",
-          "ja": "ドリンク"
-        },
-        "items": [
-          {
-            "id": "agua",
-            "name": {
-              "pt": "Água",
-              "en": "Water",
-              "fr": "Eau",
-              "ja": "水"
-            },
-            "description": {
-              "pt": "Água natural.",
-              "en": "Still water.",
-              "fr": "Eau plate.",
-              "ja": "ミネラルウォーター。"
-            },
-            "price": 200,
-            "image": "agua.webp"
-          },
-          {
-            "id": "refrigerante",
-            "name": {
-              "pt": "Refrigerante",
-              "en": "Soft Drink",
-              "fr": "Boisson gazeuse",
-              "ja": "ソフトドリンク"
-            },
-            "description": {
-              "pt": "Refrigerante à escolha.",
-              "en": "Soft drink of your choice.",
-              "fr": "Boisson gazeuse au choix.",
-              "ja": "お好みのソフトドリンク。"
-            },
-            "price": 250,
-            "image": "refrigerante.webp"
-          },
-          {
-            "id": "cha-verde",
-            "name": {
-              "pt": "Chá verde",
-              "en": "Green Tea",
-              "fr": "Thé vert",
-              "ja": "緑茶"
-            },
-            "description": {
-              "pt": "Chá verde japonês.",
-              "en": "Japanese green tea.",
-              "fr": "Thé vert japonais.",
-              "ja": "日本の緑茶。"
-            },
-            "price": 300,
-            "image": "cha-verde.webp"
-          },
-          {
-            "id": "limonada",
-            "name": {
-              "pt": "Limonada",
-              "en": "Lemonade",
-              "fr": "Limonade",
-              "ja": "レモネード"
-            },
-            "description": {
-              "pt": "Limonada fresca.",
-              "en": "Fresh lemonade.",
-              "fr": "Limonade fraîche.",
-              "ja": "フレッシュレモネード。"
-            },
-            "price": 350,
-            "image": "limonada.webp"
-          }
-        ]
-      }
-    ]
+    "categories": [],
+    "items": []
   },
-
   "restaurant": {
     "name": "Sushi Sabores do Mundo",
     "shortName": "Sabores do Mundo",
@@ -510,10 +51,6 @@
       "demo": true
     }
   ],
-  "menu": {
-    "categories": [],
-    "items": []
-  },
   "media": {
     "hero": "public/images/fotografia-original-1.webp",
     "chef": "public/images/fotografia-original-2.webp",
@@ -571,7 +108,68 @@
       "videoTitle": "Uma degustação de Onigiri",
       "videoDesc": "Registo de uma degustação de Onigiri com o Chef Muira e o Chef José Centeio (Guto).",
       "reservationSuccess": "A mensagem está pronta no WhatsApp. Envie-a para solicitar a reserva.",
-      "required": "Preencha o seu nome e indique o número de pessoas."
+      "required": "Preencha o seu nome e indique o número de pessoas.",
+      "homeCultureTitle": "Uma experiência que atravessa culturas.",
+      "homeCultureText": "Conheça a ligação entre Cabo Verde e Japão através da cozinha.",
+      "storyBioLead": "A história de José Centeio, conhecido como Guto, e o caminho que o levou da cozinha cabo-verdiana à gastronomia japonesa.",
+      "storyOrigins": "Origens",
+      "storyOriginsTitle": "De Órgãos à Achadinha",
+      "storyOriginsP1": "José Centeio nasceu em Órgãos, ilha de Santiago, e cresceu na Achadinha, Praia. Antes da cozinha houve o futebol: entre 1990 e 1998 viveu o desporto de perto e formou-se duas vezes como treinador.",
+      "storyOriginsP2": "As circunstâncias da vida levaram-no para a gastronomia, na ilha do Sal, e dali nunca mais saiu. Hoje é dono do seu próprio espaço de sushi em Palmarejo Baixo, onde junta a técnica japonesa à hospitalidade cabo-verdiana.",
+      "milestoneStart": "Início na cozinha",
+      "milestoneOwn": "Abre o seu espaço",
+      "milestoneJapan": "Especialização no Japão",
+      "yearsExperience": "Anos de experiência",
+      "careerEyebrow": "Percurso profissional",
+      "careerTitle": "Uma vida na cozinha",
+      "careerSalTitle": "A primeira formação",
+      "careerSalText": "Começa no hotel Belo Horizonte ao lado dos cozinheiros João Silva, Luís Olavo, Tchitchenha, Fotu, Putim e outros. Dois anos depois passa por Bravo Club, Riu Funana, hotel Djadsal e Freitas Catering.",
+      "careerBoaTitle": "Chefe de partida e chefe de cozinha",
+      "careerBoaText": "Contratado para o hotel Venta Club como chefe de partida na área de massas, depois chefe de cozinha no hotel Marine Club. Passa ainda pelos hotéis Riu Karamboa e Riu Touareg.",
+      "careerAngolaTitle": "Chefe de produção no hotel Diamante",
+      "careerAngolaText": "Três anos de grande experiência ao lado do chefe Juliano.",
+      "careerPortugalTitle": "Cozinha internacional",
+      "careerPortugalText": "Dois anos no ACPP com os chefes Gil Mourão e Miguel Bertolo, e três meses de estágio no JNcQUOI Ásia com os chefes António Bóia e Mário Esteves. A paixão pela cozinha japonesa nasce aqui, no módulo de cozinha japonesa e sushi.",
+      "careerSushiTitle": "Sushiman",
+      "careerSushiText": "Curso de Sushi Nível II e trabalho nos dois restaurantes do chefe Miguel Bertolo, enquanto trabalhava também nos hotéis Pine Cliffs e Tivoli. Dois anos de estudo e trabalho em simultâneo.",
+      "careerReturn": "De volta a Cabo Verde",
+      "careerReturnTitle": "Chefe, formador e empreendedor",
+      "careerReturnText": "Chefe no restaurante Poeta, curso de pedagogia e dois anos como formador e coordenador técnico no centro de capacitação. Em fevereiro de 2022 abre o seu espaço em casa.",
+      "chefExecutive": "Guto · Chef Executivo",
+      "chefJourneyTitle": "Uma trajetória feita de aprendizagem",
+      "chefP1": "O percurso de Guto começou em 1999, na ilha do Sal, e passou por unidades hoteleiras em Cabo Verde, pela Boa Vista e por Angola. Em Portugal aprofundou a cozinha internacional e o contacto com a cozinha japonesa e o sushi.",
+      "chefP2": "Frequentou o Curso de Sushi Nível II e trabalhou em restaurantes do chefe Miguel Bertolo, além de experiências nos hotéis Pine Cliffs e Tivoli. Regressou a Cabo Verde, onde trabalhou como chefe, formador e coordenador técnico.",
+      "chefP3": "Em fevereiro de 2022 abriu o seu próprio espaço. A sua formação continuou com a Ishizuka Academy e especializações no Japão.",
+      "chefPhilosophy": "Filosofia",
+      "chefPhilosophyTitle": "Respeito pela técnica. Hospitalidade de Cabo Verde.",
+      "chefPhilosophyText": "A cozinha de Guto reúne o conhecimento adquirido ao longo do seu percurso com a vontade de proporcionar uma experiência acolhedora em Palmarejo Baixo.",
+      "japanEyebrow": "Formação internacional",
+      "academyTitle": "Aprender, praticar, aprofundar",
+      "japanP1": "Em maio e novembro de 2024 esteve em Lisboa na Ishizuka Academy: Sushi Omakase Style, Ramen Izakaya e Sushi Sashimi.",
+      "japanP2": "Em 2025 viajou até ao Japão para se especializar na cozinha Washoku, com yakisoba, gyoza, cha-han, Sushi Omakase Style, o curso de Ramen níveis I, II, III e IV e Sushi Avançado.",
+      "japanP3": "Em agosto de 2026 recebeu no seu restaurante o chefe Miura, do restaurante Asakusa Yadoroku, reconhecido pelo Guia Michelin em Tóquio, e aprendeu a fazer o onigiri, o sushi mais honrado do Japão.",
+      "galleryEyebrow": "Galeria",
+      "galleryTitle": "Uma experiência entre Cabo Verde e Japão",
+      "galleryText": "Momentos de aprendizagem, partilha e contacto com a verdadeira cultura gastronómica japonesa.",
+      "tokyoExperience": "Experiência em Tóquio",
+      "foodMeeting": "Encontro gastronómico",
+      "videoEyebrow": "Em vídeo",
+      "videoFallback": "O seu navegador não suporta vídeo.",
+      "testimonialEyebrow": "Testemunho",
+      "contactLead": "Sushi Sabores do Mundo — Chef José Centeio (Guto).",
+      "country": "Cabo Verde",
+      "placeAddress": "Palmarejo Baixo, Praia",
+      "bookingEyebrow": "WhatsApp · Reserva direta",
+      "bookingAside": "Escolha a mesa que prefere. A equipa do restaurante irá verificar manualmente se está disponível.",
+      "hospitality": "おもてなし",
+      "bioEyebrow": "Biografia",
+      "chefPassion": "Uma paixão pela cozinha japonesa",
+      "experienceJapan": "Experiência no Japão",
+      "galleryPhotos": "Galeria de fotografias",
+      "introEyebrow": "Introdução",
+      "closeImage": "Fechar imagem",
+      "languageLabel": "Idioma",
+      "openMenu": "Abrir menu"
     },
     "en": {
       "navHome": "Home",
@@ -609,13 +207,74 @@
       "noDishes": "The menu will be updated soon.",
       "seats": "seats",
       "demo": "Demonstration table",
-      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "testimonial": "Very good. I loved the rice. If Sabores do Mundo were in Japan, I would go every day.",
       "tokyoCaption": "Tokyo radio/television team at the restaurant with Chef Muira during Onigiri training.",
       "criticCaption": "Photograph related to Japanese food critic Mitsutani, who visited to evaluate the sushi.",
       "videoTitle": "An Onigiri tasting",
       "videoDesc": "A record of an Onigiri tasting with Chef Muira and Chef José Centeio (Guto).",
       "reservationSuccess": "Your message is ready in WhatsApp. Send it to request your reservation.",
-      "required": "Enter your name and the number of guests."
+      "required": "Enter your name and the number of guests.",
+      "homeCultureTitle": "An experience that crosses cultures.",
+      "homeCultureText": "Discover the connection between Cabo Verde and Japan through food.",
+      "storyBioLead": "The story of José Centeio, known as Guto, and the journey that took him from Cabo Verdean cuisine to Japanese gastronomy.",
+      "storyOrigins": "Origins",
+      "storyOriginsTitle": "From Órgãos to Achadinha",
+      "storyOriginsP1": "José Centeio was born in Órgãos, on Santiago Island, and grew up in Achadinha, Praia. Before cooking, there was football: between 1990 and 1998 he was closely involved in the sport and qualified twice as a coach.",
+      "storyOriginsP2": "Life circumstances led him to gastronomy on Sal Island, and he never looked back. Today he owns his own sushi restaurant in Palmarejo Baixo, where he brings Japanese technique together with Cabo Verdean hospitality.",
+      "milestoneStart": "Started cooking",
+      "milestoneOwn": "Opens his own restaurant",
+      "milestoneJapan": "Specialisation in Japan",
+      "yearsExperience": "Years of experience",
+      "careerEyebrow": "Career",
+      "careerTitle": "A life in the kitchen",
+      "careerSalTitle": "First training",
+      "careerSalText": "He began at Belo Horizonte Hotel alongside chefs João Silva, Luís Olavo, Tchitchenha, Fotu, Putim and others. Two years later, he moved on to Bravo Club, Riu Funana, Djadsal Hotel and Freitas Catering.",
+      "careerBoaTitle": "Station chef and head chef",
+      "careerBoaText": "He joined Venta Club Hotel as a pasta-section chef, then became head chef at Marine Club Hotel. He also worked at Riu Karamboa and Riu Touareg.",
+      "careerAngolaTitle": "Production chef at Diamante Hotel",
+      "careerAngolaText": "Three years of valuable experience working alongside Chef Juliano.",
+      "careerPortugalTitle": "International cuisine",
+      "careerPortugalText": "Two years at ACPP with Chefs Gil Mourão and Miguel Bertolo, followed by a three-month internship at JNcQUOI Ásia with Chefs António Bóia and Mário Esteves. His passion for Japanese cuisine began here, during the Japanese cuisine and sushi module.",
+      "careerSushiTitle": "Sushi chef",
+      "careerSushiText": "He completed Sushi Level II and worked at both of Chef Miguel Bertolo’s restaurants, while also working at the Pine Cliffs and Tivoli hotels. Two years of study and work at the same time.",
+      "careerReturn": "Back to Cabo Verde",
+      "careerReturnTitle": "Chef, trainer and entrepreneur",
+      "careerReturnText": "He worked as a chef at Poeta restaurant, completed a teaching course, and spent two years as a trainer and technical coordinator at a training centre. In February 2022, he opened his own restaurant at home.",
+      "chefExecutive": "Guto · Executive Chef",
+      "chefJourneyTitle": "A journey shaped by learning",
+      "chefP1": "Guto’s journey began in 1999 on Sal Island and took him through hotels in Cabo Verde, Boa Vista and Angola. In Portugal, he deepened his knowledge of international cuisine and discovered Japanese cuisine and sushi.",
+      "chefP2": "He completed Sushi Level II and worked in restaurants run by Chef Miguel Bertolo, as well as gaining experience at the Pine Cliffs and Tivoli hotels. He returned to Cabo Verde, where he worked as a chef, trainer and technical coordinator.",
+      "chefP3": "In February 2022, he opened his own restaurant. His training continued at Ishizuka Academy and through specialist courses in Japan.",
+      "chefPhilosophy": "Philosophy",
+      "chefPhilosophyTitle": "Respect for technique. Cabo Verdean hospitality.",
+      "chefPhilosophyText": "Guto’s cuisine brings together the knowledge gained throughout his career and his desire to offer a warm, welcoming experience in Palmarejo Baixo.",
+      "japanEyebrow": "International training",
+      "academyTitle": "Learn, practise, deepen knowledge",
+      "japanP1": "In May and November 2024, he attended Ishizuka Academy in Lisbon, studying Sushi Omakase Style, Ramen Izakaya and Sushi Sashimi.",
+      "japanP2": "In 2025, he travelled to Japan to specialise in Washoku cuisine, studying yakisoba, gyoza, cha-han, Sushi Omakase Style, Ramen Levels I–IV and Advanced Sushi.",
+      "japanP3": "In August 2026, he welcomed Chef Miura from Asakusa Yadoroku, recognised by the Michelin Guide in Tokyo, to his restaurant and learned to make onigiri, one of Japan’s most cherished traditional foods.",
+      "galleryEyebrow": "Gallery",
+      "galleryTitle": "An experience between Cabo Verde and Japan",
+      "galleryText": "Moments of learning, sharing and discovering authentic Japanese food culture.",
+      "tokyoExperience": "Tokyo experience",
+      "foodMeeting": "Culinary encounter",
+      "videoEyebrow": "On video",
+      "videoFallback": "Your browser does not support video.",
+      "testimonialEyebrow": "Testimonial",
+      "contactLead": "Sushi Sabores do Mundo — Chef José Centeio (Guto).",
+      "country": "Cabo Verde",
+      "placeAddress": "Palmarejo Baixo, Praia",
+      "bookingEyebrow": "WhatsApp · Direct booking",
+      "bookingAside": "Choose the table you prefer. The restaurant team will manually check its availability.",
+      "hospitality": "Hospitality",
+      "bioEyebrow": "Biography",
+      "chefPassion": "A passion for Japanese cuisine",
+      "experienceJapan": "Experience in Japan",
+      "galleryPhotos": "Photo gallery",
+      "introEyebrow": "Introduction",
+      "closeImage": "Close image",
+      "languageLabel": "Language",
+      "openMenu": "Open menu"
     },
     "fr": {
       "navHome": "Accueil",
@@ -653,13 +312,74 @@
       "noDishes": "Le menu sera bientôt mis à jour.",
       "seats": "places",
       "demo": "Table de démonstration",
-      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "testimonial": "Très bon. J’ai aimé le riz. Si Sabores do Mundo était au Japon, j’y irais tous les jours.",
       "tokyoCaption": "Équipe de radio/télévision de Tokyo au restaurant avec le Chef Muira, lors d'une formation Onigiri.",
       "criticCaption": "Photo liée au critique gastronomique japonais Mitsutani, venu évaluer le sushi.",
       "videoTitle": "Une dégustation d'Onigiri",
       "videoDesc": "Une dégustation d'Onigiri avec le Chef Muira et le Chef José Centeio (Guto).",
       "reservationSuccess": "Votre message est prêt sur WhatsApp. Envoyez-le pour demander la réservation.",
-      "required": "Saisissez votre nom et le nombre de personnes."
+      "required": "Saisissez votre nom et le nombre de personnes.",
+      "homeCultureTitle": "Une expérience qui traverse les cultures.",
+      "homeCultureText": "Découvrez le lien entre le Cabo Verde et le Japon à travers la cuisine.",
+      "storyBioLead": "L’histoire de José Centeio, connu sous le nom de Guto, et son parcours de la cuisine capverdienne à la gastronomie japonaise.",
+      "storyOrigins": "Origines",
+      "storyOriginsTitle": "D’Órgãos à Achadinha",
+      "storyOriginsP1": "José Centeio est né à Órgãos, sur l’île de Santiago, et a grandi à Achadinha, à Praia. Avant la cuisine, il y a eu le football : de 1990 à 1998, il a vécu ce sport de près et a obtenu deux qualifications d’entraîneur.",
+      "storyOriginsP2": "Les circonstances de la vie l’ont conduit vers la gastronomie sur l’île de Sal, et il n’a jamais quitté cette voie. Aujourd’hui, il possède son propre restaurant de sushi à Palmarejo Baixo, où il associe la technique japonaise à l’hospitalité capverdienne.",
+      "milestoneStart": "Débuts en cuisine",
+      "milestoneOwn": "Ouvre son établissement",
+      "milestoneJapan": "Spécialisation au Japon",
+      "yearsExperience": "Années d’expérience",
+      "careerEyebrow": "Parcours professionnel",
+      "careerTitle": "Une vie en cuisine",
+      "careerSalTitle": "La première formation",
+      "careerSalText": "Il commence à l’hôtel Belo Horizonte aux côtés des cuisiniers João Silva, Luís Olavo, Tchitchenha, Fotu, Putim et d’autres. Deux ans plus tard, il travaille au Bravo Club, au Riu Funana, à l’hôtel Djadsal et chez Freitas Catering.",
+      "careerBoaTitle": "Chef de partie et chef de cuisine",
+      "careerBoaText": "Il est engagé à l’hôtel Venta Club comme chef de partie au poste des pâtes, puis devient chef de cuisine à l’hôtel Marine Club. Il travaille également aux hôtels Riu Karamboa et Riu Touareg.",
+      "careerAngolaTitle": "Chef de production à l’hôtel Diamante",
+      "careerAngolaText": "Trois années d’expérience enrichissante aux côtés du chef Juliano.",
+      "careerPortugalTitle": "Cuisine internationale",
+      "careerPortugalText": "Deux ans à l’ACPP avec les chefs Gil Mourão et Miguel Bertolo, puis trois mois de stage au JNcQUOI Ásia avec les chefs António Bóia et Mário Esteves. C’est là que naît sa passion pour la cuisine japonaise, lors du module consacré à la cuisine japonaise et au sushi.",
+      "careerSushiTitle": "Chef sushi",
+      "careerSushiText": "Il suit le cours de sushi de niveau II et travaille dans les deux restaurants du chef Miguel Bertolo, tout en travaillant également aux hôtels Pine Cliffs et Tivoli. Deux années d’études et de travail simultanés.",
+      "careerReturn": "De retour au Cabo Verde",
+      "careerReturnTitle": "Chef, formateur et entrepreneur",
+      "careerReturnText": "Chef au restaurant Poeta, il suit une formation en pédagogie puis travaille deux ans comme formateur et coordinateur technique dans un centre de formation. En février 2022, il ouvre son propre établissement chez lui.",
+      "chefExecutive": "Guto · Chef exécutif",
+      "chefJourneyTitle": "Un parcours fait d’apprentissage",
+      "chefP1": "Le parcours de Guto commence en 1999 sur l’île de Sal et passe par des établissements hôteliers au Cabo Verde, à Boa Vista et en Angola. Au Portugal, il approfondit la cuisine internationale et découvre davantage la cuisine japonaise et le sushi.",
+      "chefP2": "Il suit le cours de sushi de niveau II et travaille dans les restaurants du chef Miguel Bertolo, tout en acquérant de l’expérience aux hôtels Pine Cliffs et Tivoli. De retour au Cabo Verde, il travaille comme chef, formateur et coordinateur technique.",
+      "chefP3": "En février 2022, il ouvre son propre établissement. Il poursuit sa formation à l’Ishizuka Academy et grâce à des spécialisations au Japon.",
+      "chefPhilosophy": "Philosophie",
+      "chefPhilosophyTitle": "Le respect de la technique. L’hospitalité du Cabo Verde.",
+      "chefPhilosophyText": "La cuisine de Guto réunit les connaissances acquises tout au long de son parcours et son désir d’offrir une expérience chaleureuse à Palmarejo Baixo.",
+      "japanEyebrow": "Formation internationale",
+      "academyTitle": "Apprendre, pratiquer, approfondir",
+      "japanP1": "En mai et novembre 2024, il se rend à l’Ishizuka Academy à Lisbonne pour suivre les formations Sushi Omakase Style, Ramen Izakaya et Sushi Sashimi.",
+      "japanP2": "En 2025, il se rend au Japon pour se spécialiser dans la cuisine Washoku : yakisoba, gyoza, cha-han, Sushi Omakase Style, ramen niveaux I à IV et sushi avancé.",
+      "japanP3": "En août 2026, il accueille dans son restaurant le chef Miura, du restaurant Asakusa Yadoroku, distingué par le Guide Michelin à Tokyo, et apprend à préparer l’onigiri, l’une des spécialités traditionnelles les plus appréciées du Japon.",
+      "galleryEyebrow": "Galerie",
+      "galleryTitle": "Une expérience entre le Cabo Verde et le Japon",
+      "galleryText": "Des moments d’apprentissage, de partage et de découverte de la véritable culture gastronomique japonaise.",
+      "tokyoExperience": "Expérience à Tokyo",
+      "foodMeeting": "Rencontre gastronomique",
+      "videoEyebrow": "En vidéo",
+      "videoFallback": "Votre navigateur ne prend pas en charge la vidéo.",
+      "testimonialEyebrow": "Témoignage",
+      "contactLead": "Sushi Sabores do Mundo — Chef José Centeio (Guto).",
+      "country": "Cabo Verde",
+      "placeAddress": "Palmarejo Baixo, Praia",
+      "bookingEyebrow": "WhatsApp · Réservation directe",
+      "bookingAside": "Choisissez la table que vous préférez. L’équipe du restaurant vérifiera manuellement sa disponibilité.",
+      "hospitality": "Omotenashi · Hospitalité",
+      "bioEyebrow": "Biographie",
+      "chefPassion": "Une passion pour la cuisine japonaise",
+      "experienceJapan": "Expérience au Japon",
+      "galleryPhotos": "Galerie photos",
+      "introEyebrow": "Introduction",
+      "closeImage": "Fermer l’image",
+      "languageLabel": "Langue",
+      "openMenu": "Ouvrir le menu"
     },
     "ja": {
       "navHome": "ホーム",
@@ -697,13 +417,74 @@
       "noDishes": "メニューは近日更新予定です。",
       "seats": "席",
       "demo": "デモ用テーブル",
-      "testimonial": "Muito bom gostei do arroz Se o sabores do mundo estava no Japão eu ia todos os dia",
+      "testimonial": "とてもおいしかったです。特にご飯が気に入りました。Sabores do Mundoが日本にあったら、毎日通いたいです。",
       "tokyoCaption": "おにぎり研修の際、シェフMuiraとレストランを訪れた東京のラジオ・テレビチーム。",
       "criticCaption": "寿司を評価するために訪れた日本の料理評論家Mitsutaniに関連する写真。",
       "videoTitle": "おにぎりの試食",
       "videoDesc": "シェフMuiraとJosé Centeio（Guto）によるおにぎりの試食。",
       "reservationSuccess": "WhatsAppにメッセージを用意しました。送信して予約をリクエストしてください。",
-      "required": "お名前と人数を入力してください。"
+      "required": "お名前と人数を入力してください。",
+      "homeCultureTitle": "文化をつなぐ食体験。",
+      "homeCultureText": "料理を通じてカーボベルデと日本のつながりをご紹介します。",
+      "storyBioLead": "Gutoとして知られるJosé Centeioの物語。カーボベルデ料理から日本料理へと歩んだ道のりをご紹介します。",
+      "storyOrigins": "原点",
+      "storyOriginsTitle": "オルガンスからアシャディーニャへ",
+      "storyOriginsP1": "José Centeioはサンティアゴ島のÓrgãosで生まれ、プライアのAchadinhaで育ちました。料理の道に進む前はサッカーに打ち込み、1990年から1998年まで競技に深く関わり、2度コーチ資格を取得しました。",
+      "storyOriginsP2": "人生の巡り合わせからサル島で料理の道に入り、それ以来歩み続けています。現在はパルマレージョ・バイショで寿司店を営み、日本の技術とカーボベルデのおもてなしを融合させています。",
+      "milestoneStart": "料理人としての出発",
+      "milestoneOwn": "自身の店を開業",
+      "milestoneJapan": "日本で専門研修",
+      "yearsExperience": "経験年数",
+      "careerEyebrow": "職歴",
+      "careerTitle": "料理と歩んだ人生",
+      "careerSalTitle": "最初の修業",
+      "careerSalText": "Belo HorizonteホテルでJoão Silva、Luís Olavo、Tchitchenha、Fotu、Putimら料理人とともにキャリアを開始。2年後、Bravo Club、Riu Funana、Djadsalホテル、Freitas Cateringで経験を積みました。",
+      "careerBoaTitle": "部門シェフ・料理長",
+      "careerBoaText": "Venta Clubホテルでパスタ部門のシェフを務め、その後Marine Clubホテルの料理長に就任。Riu Karamboa、Riu Touaregホテルでも勤務しました。",
+      "careerAngolaTitle": "Diamanteホテルの調理責任者",
+      "careerAngolaText": "Julianoシェフのもとで3年間、貴重な経験を積みました。",
+      "careerPortugalTitle": "各国料理",
+      "careerPortugalText": "ACPPでGil Mourão、Miguel Bertolo両シェフのもとで2年間学び、JNcQUOI ÁsiaではAntónio Bóia、Mário Esteves両シェフのもとで3か月研修。日本料理と寿司の講座を通じて、日本料理への情熱が芽生えました。",
+      "careerSushiTitle": "寿司職人",
+      "careerSushiText": "寿司コース・レベルIIを修了し、Miguel Bertoloシェフの2つのレストランで勤務。同時にPine Cliffs、Tivoliホテルでも働き、2年間学びと仕事を両立しました。",
+      "careerReturn": "カーボベルデへ帰国",
+      "careerReturnTitle": "シェフ・講師・起業家",
+      "careerReturnText": "Poetaレストランのシェフを務め、教育学の課程を修了。職業訓練センターで2年間、講師兼技術コーディネーターとして働きました。2022年2月、自宅に自身の店を開業しました。",
+      "chefExecutive": "Guto · 総料理長",
+      "chefJourneyTitle": "学びを重ねた歩み",
+      "chefP1": "Gutoの歩みは1999年、サル島から始まり、カーボベルデ、ボア・ヴィスタ、アンゴラのホテルへと広がりました。ポルトガルでは各国料理の知識を深め、日本料理と寿司に触れました。",
+      "chefP2": "寿司コース・レベルIIを修了し、Miguel BertoloシェフのレストランやPine Cliffs、Tivoliホテルで経験を積みました。カーボベルデに戻り、シェフ、講師、技術コーディネーターとして働きました。",
+      "chefP3": "2022年2月、自身の店を開業。その後もIshizuka Academyや日本での専門研修を通じて学び続けています。",
+      "chefPhilosophy": "料理哲学",
+      "chefPhilosophyTitle": "技術への敬意。カーボベルデのおもてなし。",
+      "chefPhilosophyText": "Gutoの料理は、これまでの経験で培った知識と、パルマレージョ・バイショで温かな食体験を届けたいという思いを融合させています。",
+      "japanEyebrow": "国際的な研修",
+      "academyTitle": "学び、実践し、深める",
+      "japanP1": "2024年5月と11月、リスボンのIshizuka AcademyでSushi Omakase Style、Ramen Izakaya、Sushi Sashimiを学びました。",
+      "japanP2": "2025年、日本を訪れて和食を専門的に学び、焼きそば、餃子、チャーハン、Sushi Omakase Style、ラーメンI〜IV、上級寿司を修得しました。",
+      "japanP3": "2026年8月、東京のミシュランガイド掲載店Asakusa YadorokuのMiuraシェフを店に迎え、日本で大切にされている伝統料理の一つ、おにぎりの作り方を学びました。",
+      "galleryEyebrow": "ギャラリー",
+      "galleryTitle": "カーボベルデと日本をつなぐ体験",
+      "galleryText": "学び、交流し、本場の日本の食文化に触れたひととき。",
+      "tokyoExperience": "東京での体験",
+      "foodMeeting": "食の交流",
+      "videoEyebrow": "動画",
+      "videoFallback": "お使いのブラウザは動画に対応していません。",
+      "testimonialEyebrow": "お客様の声",
+      "contactLead": "Sushi Sabores do Mundo — シェフ José Centeio（Guto）。",
+      "country": "カーボベルデ",
+      "placeAddress": "パルマレージョ・バイショ、プライア",
+      "bookingEyebrow": "WhatsApp · 直接予約",
+      "bookingAside": "ご希望のテーブルをお選びください。レストランのスタッフが空席状況を確認します。",
+      "hospitality": "おもてなし",
+      "bioEyebrow": "略歴",
+      "chefPassion": "日本料理への情熱",
+      "experienceJapan": "日本での経験",
+      "galleryPhotos": "写真ギャラリー",
+      "introEyebrow": "はじめに",
+      "closeImage": "画像を閉じる",
+      "languageLabel": "言語",
+      "openMenu": "メニューを開く"
     }
   }
 }

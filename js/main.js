@@ -13,7 +13,7 @@ async function init(){
 }
 function setLanguage(lang){state.lang=lang;localStorage.setItem('ssm-language',lang);document.documentElement.lang=lang;applyLanguage();if(page==='menu')renderMenu();if(page==='booking')renderTables();}
 function t(key){return state.config.texts[state.lang]?.[key]??state.config.texts.pt[key]??key;}
-function applyLanguage(){document.documentElement.lang=state.lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const value=t(el.dataset.i18n);if(value)el.textContent=value;});}
+function applyLanguage(){document.documentElement.lang=state.lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const value=t(el.dataset.i18n);if(value)el.textContent=value;});document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{el.placeholder=t(el.dataset.i18nPlaceholder);});document.querySelectorAll('[data-i18n-aria-label]').forEach(el=>{el.setAttribute('aria-label',t(el.dataset.i18nAriaLabel));});document.querySelectorAll('[data-i18n-alt]').forEach(el=>{el.alt=t(el.dataset.i18nAlt);});}
 function renderMenu(){
  const cats=state.config.menu.categories||[],items=(state.config.menu.items||[]).filter(x=>x.active!==false);
  const catRoot=$('#menu-categories'),root=$('#menu-items');catRoot.innerHTML='';root.innerHTML='';
