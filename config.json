@@ -151,7 +151,7 @@
       "galleryEyebrow": "Galeria",
       "galleryTitle": "Uma experiência entre Cabo Verde e Japão",
       "galleryText": "Momentos de aprendizagem, partilha e contacto com a verdadeira cultura gastronómica japonesa.",
-      "tokyoExperience": "Experiência em Tóquio",
+      "tokyoExperience": "experiência em palmarejo sabores do mundo",
       "foodMeeting": "Encontro gastronómico",
       "videoEyebrow": "Em vídeo",
       "videoFallback": "O seu navegador não suporta vídeo.",
@@ -256,7 +256,7 @@
       "galleryEyebrow": "Gallery",
       "galleryTitle": "An experience between Cabo Verde and Japan",
       "galleryText": "Moments of learning, sharing and discovering authentic Japanese food culture.",
-      "tokyoExperience": "Tokyo experience",
+      "tokyoExperience": "Experience at Palmarejo: sabores do mundo",
       "foodMeeting": "Culinary encounter",
       "videoEyebrow": "On video",
       "videoFallback": "Your browser does not support video.",
@@ -361,7 +361,7 @@
       "galleryEyebrow": "Galerie",
       "galleryTitle": "Une expérience entre le Cabo Verde et le Japon",
       "galleryText": "Des moments d’apprentissage, de partage et de découverte de la véritable culture gastronomique japonaise.",
-      "tokyoExperience": "Expérience à Tokyo",
+      "tokyoExperience": "Expérience à Palmarejo : sabores do mundo",
       "foodMeeting": "Rencontre gastronomique",
       "videoEyebrow": "En vidéo",
       "videoFallback": "Votre navigateur ne prend pas en charge la vidéo.",
@@ -466,7 +466,7 @@
       "galleryEyebrow": "ギャラリー",
       "galleryTitle": "カーボベルデと日本をつなぐ体験",
       "galleryText": "学び、交流し、本場の日本の食文化に触れたひととき。",
-      "tokyoExperience": "東京での体験",
+      "tokyoExperience": "パルマレホでの体験：世界の味わい",
       "foodMeeting": "食の交流",
       "videoEyebrow": "動画",
       "videoFallback": "お使いのブラウザは動画に対応していません。",
@@ -488,3 +488,4 @@
     }
   }
 }
+
