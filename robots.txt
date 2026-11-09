@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saboresdomundo.vercel.app/sitemap.xml
